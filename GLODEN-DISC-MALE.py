@@ -121,7 +121,7 @@ while True:
             mubeat_diffs[name] = mubeat_current - last_mubeat_votes.get(name, 0)
             fandom_diffs[name] = fandom_current - last_fandom_votes.get(name, 0)
             total_diffs[name] = total_current - (
-                last_my1pick_votes.get(name, 0) + last_mubeat_votes.get(name, 0) * 2 + last_fandom_votes.get(name, 0)
+                last_my1pick_votes.get(name, 0) + last_mubeat_votes.get(name, 0)  + last_fandom_votes.get(name, 0)
             )
 
         # 更新上次的票数
