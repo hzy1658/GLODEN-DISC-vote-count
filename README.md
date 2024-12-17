@@ -46,11 +46,11 @@ pip install requests urllib3 seaborn pyecharts
 
 * **爬取女性艺人投票数据:**
   ```bash
-  python GLODEN DISC-FEMALE.py
+  python GLODEN-DISC-FEMALE.py
   ```
 * **爬取男性艺人投票数据:**
   ```bash
-  python GLODEN DISC-MALE.py
+  python GLODEN-DISC-MALE.py
   ```
 
    *运行以上命令后，脚本将每分钟自动爬取数据并保存为 CSV 文件。（也可自行修改爬取频率）*
