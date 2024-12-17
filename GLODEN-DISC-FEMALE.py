@@ -66,7 +66,7 @@ def calculate_total_votes(my1pick_votes, mubeat_votes, fandom_votes):
     for name in my1pick_votes:
         total_votes[name] = my1pick_votes[name]
         if name in mubeat_votes:
-            total_votes[name] += mubeat_votes[name] * 2  # Mubeat 票数乘以 2
+            total_votes[name] += mubeat_votes[name] 
         if name in fandom_votes:
             total_votes[name] += fandom_votes[name]
     return total_votes
@@ -164,7 +164,7 @@ while True:
         f"{'Name':<15} {'Total Votes':<15} {'My1Pick Votes':<15} {'Mubeat Votes':<15} {'Fandom Votes':<15} {'Timestamp':<20} "
         f"{'My1Pick Diff':<15} {'Mubeat Diff':<15} {'Fandom Diff':<15} {'Total Diff':<15}")
     for name in data_to_write:
-        print(f"{name[0]:<15} {name[1]:<15} {name[2]:<15} {name[3]*2:<15} {name[4]:<15} {name[5]:<20} "
+        print(f"{name[0]:<15} {name[1]:<15} {name[2]:<15} {name[3]:<15} {name[4]:<15} {name[5]:<20} "
               f"{name[6]:<15} {name[7]:<15} {name[8]:<15} {name[9]:<15}")
 
     # 每分钟循环一次

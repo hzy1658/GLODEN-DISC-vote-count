@@ -12,8 +12,8 @@
 ## 文件结构
 
 ```
-├── GLODEN DISC-FEMALE.py   # 每分钟爬取女性艺人投票数据并保存为 CSV 文件
-├── GLODEN DISC-MALE.py     # 每分钟爬取男性艺人投票数据并保存为 CSV 文件
+├── GLODEN-DISC-FEMALE.py   # 每分钟爬取女性艺人投票数据并保存为 CSV 文件
+├── GLODEN-DISC-MALE.py     # 每分钟爬取男性艺人投票数据并保存为 CSV 文件
 ├── GD-PIC.py              # 将爬取的数据生成图表
 └── GD-html.py             # 将数据可视化为可交互的静态网页
 ```
